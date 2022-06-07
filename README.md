@@ -17,7 +17,7 @@ Every driver takes two options, regardless of which one you use. Both
 the name of the driver and the name of the container/bucket are
 case-sensitive:
 
-    ckanext.cloudstorage.driver = AZURE_BLOBS
+    ckanext.cloudstorage.driver = GOOGLE_STORAGE
     ckanext.cloudstorage.container_name = demo
 
 You can find a list of driver names [here][storage] (see the `Provider
